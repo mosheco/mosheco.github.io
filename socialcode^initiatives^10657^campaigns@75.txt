@@ -1,0 +1,10 @@
+Requests      [total, rate]            4500, 75.02
+Duration      [total, attack, wait]    1m10.859166748s, 59.986663892s, 10.872502856s
+Latencies     [mean, 50, 95, 99, max]  1.537583661s, 1.359711537s, 3.277908228s, 8.659430355s, 23.535115101s
+Bytes In      [total, mean]            20978983, 4662.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  99.44%
+Status Codes  [code:count]             200:4475  504:22  500:3  
+Error Set:
+504 GATEWAY_TIMEOUT
+500 Internal Server Error

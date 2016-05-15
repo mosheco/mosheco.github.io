@@ -1,8 +1,8 @@
-Requests      [total, rate]            50, 51.02
-Duration      [total, attack, wait]    1.264035843s, 979.998762ms, 284.037081ms
-Latencies     [mean, 50, 95, 99, max]  328.446779ms, 339.071627ms, 476.128241ms, 598.701178ms, 612.470955ms
-Bytes In      [total, mean]            490250, 9805.00
+Requests      [total, rate]            3000, 50.02
+Duration      [total, attack, wait]    1m0.087764702s, 59.979998359s, 107.766343ms
+Latencies     [mean, 50, 95, 99, max]  185.251882ms, 117.474612ms, 604.329088ms, 1.201939336s, 1.647557418s
+Bytes In      [total, mean]            29415000, 9805.00
 Bytes Out     [total, mean]            0, 0.00
 Success       [ratio]                  100.00%
-Status Codes  [code:count]             200:50  
+Status Codes  [code:count]             200:3000  
 Error Set:
