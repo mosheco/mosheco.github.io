@@ -1,0 +1,11 @@
+Requests      [total, rate]            4800, 80.02
+Duration      [total, attack, wait]    1m13.8878246s, 59.987498679s, 13.900325921s
+Latencies     [mean, 50, 95, 99, max]  2.565215985s, 1.616572983s, 8.538837041s, 21.451899166s, 30.000351994s
+Bytes In      [total, mean]            71191926, 14831.65
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  92.69%
+Status Codes  [code:count]             200:4449  504:261  500:57  0:33  
+Error Set:
+504 GATEWAY_TIMEOUT
+500 Internal Server Error
+Get https://api-3scale-production-vpc.socialcodedev.com/reporting/v1/facebook/adaccounts: net/http: timeout awaiting response headers

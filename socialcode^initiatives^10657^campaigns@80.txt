@@ -1,0 +1,11 @@
+Requests      [total, rate]            4800, 80.02
+Duration      [total, attack, wait]    1m13.675322575s, 59.987498624s, 13.687823951s
+Latencies     [mean, 50, 95, 99, max]  2.663360359s, 1.784995528s, 8.907657047s, 29.218308226s, 30.009750122s
+Bytes In      [total, mean]            18746162, 3905.45
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  83.29%
+Status Codes  [code:count]             200:3998  504:697  500:58  0:47  
+Error Set:
+504 GATEWAY_TIMEOUT
+500 Internal Server Error
+Get https://api-3scale-production-vpc.socialcodedev.com/reporting/v1/socialcode/initiatives/10657/campaigns: net/http: timeout awaiting response headers
