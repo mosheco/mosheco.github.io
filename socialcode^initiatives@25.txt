@@ -1,6 +1,6 @@
 Requests      [total, rate]            25, 26.04
-Duration      [total, attack, wait]    1.066592777s, 959.99838ms, 106.594397ms
-Latencies     [mean, 50, 95, 99, max]  115.734038ms, 114.867838ms, 135.224597ms, 135.398151ms, 140.814416ms
+Duration      [total, attack, wait]    1.042440387s, 959.998576ms, 82.441811ms
+Latencies     [mean, 50, 95, 99, max]  93.687045ms, 85.469992ms, 122.022181ms, 129.672639ms, 142.449574ms
 Bytes In      [total, mean]            245125, 9805.00
 Bytes Out     [total, mean]            0, 0.00
 Success       [ratio]                  100.00%
