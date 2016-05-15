@@ -1,9 +1,0 @@
-Requests      [total, rate]            3000, 50.02
-Duration      [total, attack, wait]    1m5.50419797s, 59.979998487s, 5.524199483s
-Latencies     [mean, 50, 95, 99, max]  4.378502061s, 5.751101016s, 6.287938552s, 6.59051737s, 7.136842294s
-Bytes In      [total, mean]            72075384, 24025.13
-Bytes Out     [total, mean]            0, 0.00
-Success       [ratio]                  89.20%
-Status Codes  [code:count]             504:324  200:2676  
-Error Set:
-504 GATEWAY_TIMEOUT
