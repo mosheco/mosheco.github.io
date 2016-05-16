@@ -1,9 +1,8 @@
-Requests      [total, rate]            160, 80.50
-Duration      [total, attack, wait]    2.254569582s, 1.987498325s, 267.071257ms
-Latencies     [mean, 50, 95, 99, max]  336.055153ms, 329.307794ms, 482.348294ms, 509.831689ms, 547.77297ms
-Bytes In      [total, mean]            1402115, 8763.22
+Requests      [total, rate]            80, 81.01
+Duration      [total, attack, wait]    1.38845s, 987.49863ms, 400.95137ms
+Latencies     [mean, 50, 95, 99, max]  380.58151ms, 382.369277ms, 502.161354ms, 559.712581ms, 619.907261ms
+Bytes In      [total, mean]            784400, 9805.00
 Bytes Out     [total, mean]            0, 0.00
-Success       [ratio]                  89.38%
-Status Codes  [code:count]             200:143  504:17  
+Success       [ratio]                  100.00%
+Status Codes  [code:count]             200:80  
 Error Set:
-504 GATEWAY_TIMEOUT
