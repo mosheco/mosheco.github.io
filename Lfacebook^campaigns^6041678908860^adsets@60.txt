@@ -1,10 +1,11 @@
 Requests      [total, rate]            3600, 60.02
-Duration      [total, attack, wait]    1m0.151989948s, 59.983329794s, 168.660154ms
-Latencies     [mean, 50, 95, 99, max]  723.749585ms, 134.003553ms, 987.66503ms, 30.000301s, 30.002021502s
-Bytes In      [total, mean]            46491917, 12914.42
+Duration      [total, attack, wait]    1m29.500325783s, 59.983329407s, 29.516996376s
+Latencies     [mean, 50, 95, 99, max]  1.290983472s, 55.606771ms, 238.754848ms, 30.009362482s, 30.077411852s
+Bytes In      [total, mean]            42452000, 11792.22
 Bytes Out     [total, mean]            0, 0.00
-Success       [ratio]                  47.83%
-Status Codes  [code:count]             200:1722  500:1829  0:49  
+Success       [ratio]                  43.67%
+Status Codes  [code:count]             504:76  200:1572  500:1832  0:120  
 Error Set:
+504 GATEWAY_TIMEOUT
 500 Internal Server Error
 Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/campaigns/6041678908860/adsets: net/http: timeout awaiting response headers
