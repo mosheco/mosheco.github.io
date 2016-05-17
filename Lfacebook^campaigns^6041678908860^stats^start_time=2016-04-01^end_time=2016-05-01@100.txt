@@ -1,0 +1,13 @@
+Requests      [total, rate]            6000, 100.02
+Duration      [total, attack, wait]    1m30.007093549s, 59.989998623s, 30.017094926s
+Latencies     [mean, 50, 95, 99, max]  11.390578567s, 1.287009ms, 30.01325853s, 30.018889696s, 30.184870261s
+Bytes In      [total, mean]            1545949, 257.66
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  2.87%
+Status Codes  [code:count]             500:973  200:172  504:64  0:4791  
+Error Set:
+500 Internal Server Error
+504 GATEWAY_TIMEOUT
+Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/campaigns/6041678908860/stats?start_time=2016-04-01&end_time=2016-05-01: dial tcp: lookup reporting-api-staging-vpc.socialcodedev.com on 172.18.0.2:53: no such host
+Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/campaigns/6041678908860/stats?start_time=2016-04-01&end_time=2016-05-01: dial tcp: lookup reporting-api-staging-vpc.socialcodedev.com on 172.18.0.2:53: dial udp 172.18.0.2:53: socket: too many open files
+Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/campaigns/6041678908860/stats?start_time=2016-04-01&end_time=2016-05-01: net/http: timeout awaiting response headers

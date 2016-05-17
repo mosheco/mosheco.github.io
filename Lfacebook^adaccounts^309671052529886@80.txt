@@ -1,0 +1,10 @@
+Requests      [total, rate]            4800, 80.02
+Duration      [total, attack, wait]    1m18.904789048s, 59.987498507s, 18.917290541s
+Latencies     [mean, 50, 95, 99, max]  4.00634403s, 1.711799869s, 18.7488736s, 30.000329247s, 30.013305244s
+Bytes In      [total, mean]            995195, 207.33
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  89.69%
+Status Codes  [code:count]             200:4305  500:365  0:130  
+Error Set:
+500 Internal Server Error
+Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/adaccounts/309671052529886: net/http: timeout awaiting response headers
