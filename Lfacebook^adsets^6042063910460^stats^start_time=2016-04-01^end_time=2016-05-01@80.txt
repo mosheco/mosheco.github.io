@@ -1,8 +1,0 @@
-Requests      [total, rate]            80, 81.01
-Duration      [total, attack, wait]    1.242715086s, 987.498743ms, 255.216343ms
-Latencies     [mean, 50, 95, 99, max]  294.350158ms, 288.869607ms, 385.775934ms, 421.11331ms, 424.723817ms
-Bytes In      [total, mean]            423280, 5291.00
-Bytes Out     [total, mean]            0, 0.00
-Success       [ratio]                  100.00%
-Status Codes  [code:count]             200:80  
-Error Set:
