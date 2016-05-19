@@ -1,0 +1,12 @@
+Requests      [total, rate]            6000, 100.02
+Duration      [total, attack, wait]    1m30.006882647s, 59.989998758s, 30.016883889s
+Latencies     [mean, 50, 95, 99, max]  19.828957007s, 30.00031973s, 30.017265095s, 30.021602946s, 30.094928724s
+Bytes In      [total, mean]            1500001, 250.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  2.77%
+Status Codes  [code:count]             200:166  0:3324  503:1251  504:200  500:1059  
+Error Set:
+504 GATEWAY_TIMEOUT
+500 Internal Server Error
+Get https://reporting-api-staging-vpc.socialcodedev.com/facebook/campaigns/6041678908860/stats?start_time=2016-04-01&end_time=2016-05-01: net/http: timeout awaiting response headers
+503 Service Unavailable: Back-end server is at capacity
