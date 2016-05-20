@@ -1,0 +1,10 @@
+Requests      [total, rate]            6000, 100.02
+Duration      [total, attack, wait]    1m30.879785117s, 59.989998399s, 30.889786718s
+Latencies     [mean, 50, 95, 99, max]  10.951992768s, 2.50282ms, 30.012528149s, 30.015034625s, 31.022878274s
+Bytes In      [total, mean]            0, 0.00
+Bytes Out     [total, mean]            0, 0.00
+Success       [ratio]                  0.00%
+Status Codes  [code:count]             503:3821  0:2179  
+Error Set:
+503 Service Unavailable: Back-end server is at capacity
+Get https://reporting-api-production-vpc.socialcodedev.com/facebook/campaigns/6041678908860/stats?start_time=2016-04-01&end_time=2016-05-01: net/http: timeout awaiting response headers
